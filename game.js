@@ -25,7 +25,7 @@ function attack(x, s) {
     if (x == 'z') { players[s].health -= players[s].attack.smallKick }
 
     displayHealth()
-    if (s == 0) { Clock() }
+    if (s == 1) { Clock() }
 }
 
 let players = [player1, player2]
@@ -40,7 +40,7 @@ function displayHealth() {
 
 
 function Clock() {
-    let num = 6;
+    let num = 5;
     // while (num > 0) {
     //     let timerdisplay = document.getElementById('timer')
     //     timerdisplay.innerText = `${num}`
